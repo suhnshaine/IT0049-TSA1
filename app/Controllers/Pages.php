@@ -15,7 +15,7 @@ class Pages extends BaseController
             ->where('task_date', date('Y-m-d'))
             ->findAll();
 
-        return view('welcome_page', $data);
+        return view('welcome', $data);
     }
 
     public function tasks()
