@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Today's Tasks</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
@@ -14,6 +15,7 @@
     <a href="/profile">Profile</a>
 </nav>
 
+<div class="container">
 <h1>Today's Tasks</h1>
 
 <ul>
@@ -24,6 +26,7 @@
     </li>
 <?php endforeach; ?>
 </ul>
+</div>
 
 </body>
 </html>

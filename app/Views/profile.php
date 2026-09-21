@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Profile</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
@@ -14,11 +15,14 @@
     <a href="/profile">Profile</a>
 </nav>
 
+<div class="container">
 <h1>Profile</h1>
 
 <p>Username: <?= esc($user['username']) ?></p>
 <p>Full Name: <?= esc($user['full_name']) ?></p>
 <p>Email: <?= esc($user['email']) ?></p>
+<p>Date Created: <?= esc($user['created_at']) ?></p>
+</div>
 
 </body>
 </html>
