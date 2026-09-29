@@ -1,5 +1,3 @@
-# TSA1 - TASKS FOR TODAY MANAGEMENT SYSTEM
-
 ## Installation
 
 ### Clone the Repository
@@ -12,12 +10,6 @@ git clone https://github.com/suhnshaine/IT0049-TSA1.git
 
 ```bash
 cd IT0049-TSA1
-```
-
-### Install Dependencies
-
-```bash
-composer install
 ```
 
 ## Database Setup
@@ -36,31 +28,6 @@ database/it0049_tsa1.sql
 
 3. Ensure Apache and MySQL are running in XAMPP.
 
-## Environment Configuration
-
-Rename the provided environment file:
-
-```text
-env -> .env
-```
-
-Configure the database connection:
-
-```ini
-database.default.hostname = localhost
-database.default.database = it0049_tsa1
-database.default.username = root
-database.default.password =
-database.default.DBDriver = MySQLi
-database.default.port = 3306
-```
-
-Configure the application URL:
-
-```ini
-app.baseURL = 'http://localhost:8080/'
-```
-
 ## Running the Application
 
 Start the development server:
@@ -74,3 +41,13 @@ Open:
 ```text
 http://localhost:8080
 ```
+
+## Live Demo
+
+https://it0049-tsa1.infinityfree.me/
+
+## Author
+
+**SHIREALETH ACORDA**
+
+FEU Institute of Technology
